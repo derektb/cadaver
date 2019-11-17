@@ -1,6 +1,6 @@
 # Cadaver
 
-A minimal Snowman-based Twine 2 story format for densely variable prose.
+A minimal [Snowman](https://github.com/videlais/snowman)-based Twine 2 story format for densely variable prose.
 
 Snowman was originally created by Chris Klimas.  Cadaver additions are written by Derek Timm-Brock.
 
