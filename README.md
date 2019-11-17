@@ -18,7 +18,7 @@ Tables are the workhorse for Cadaver.  A Cadaver table is composed of a referenc
 :: Prose
 "Hello there," I said.
 
-$SHAKES_HANDS
+%SHAKES_HANDS
 =YES [
 I extended my hand, and he shook it.
 ]
@@ -44,11 +44,11 @@ I extended my hand, and he shook it.
 
 ### Variable Passages
 
-Tables may also be dropped in by reference.  A passage tagged "variable" are detected upon story setup and stored for later use.  When the name of that passage is used as a reference, it will be evaluated and dropped into the text:
+Tables may also be dropped in by reference.  Passages tagged "cadaver" are detected upon story setup and stored for later use.  When the name of that passage is used as a reference, it will be evaluated and dropped into the text:
 
 ```
-:: MY_GOOD_RESPONSE [variable]
-$MOOD
+:: MY_GOOD_RESPONSE [cadaver]
+%MOOD
 =CONTRITE
 [
 "Sorry about that. I didn't realize."
@@ -59,7 +59,7 @@ $MOOD
 ]
 
 :: Prose
-I frowned. $MY_GOOD_RESPONSE.
+I frowned. %MY_GOOD_RESPONSE%.
 
 // state setup
 

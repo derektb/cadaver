@@ -1,13 +1,14 @@
 {
   "name": "Cadaver",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A minimal Snowman-based Twine 2 story format for densely variable prose.",
   "license": "MIT",
   "repository": "https://github.com/derektb/cadaver/",
   "scripts": {
     "test": "nyc mocha test/index.js || exit 0",
     "lint": "eslint lib/**/*.js  || exit 0",
-    "build": "node scripts/build-format.js"
+    "build": "node scripts/build-format.js",
+    "debug": "node scripts/build-debug-format.js"
   },
   "keywords": [
     "twine",
