@@ -23,7 +23,7 @@
     "jsdom": "^15.1.1",
     "lz-string": "^1.4.4",
     "marked": "^0.7.0",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
